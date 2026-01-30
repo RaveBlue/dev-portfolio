@@ -1,0 +1,28 @@
+/*This helps with the navbar to fill the whole page*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*For footer*/
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
