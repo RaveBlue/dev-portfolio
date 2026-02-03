@@ -12,6 +12,7 @@ import latteart from "./latteart.png";
 import coffeemachine from "./coffeemachine.gif";
 import strawberry from "./strawberry.jpg";
 import bear from "./bear.jpg";
+import heart from "./heart.jpg";
 
 const Home = () => {
   return (
@@ -26,6 +27,17 @@ const Home = () => {
           />
           <h1 className="cursive-name has-text-weight-medium">I'm Raven. </h1>
           <div className="dev-text">
+            <img
+              className="bottom-cloud-right"
+              src={cloud}
+              alt="cloud"
+              style={{
+                width: "100px",
+                position: "absolute",
+                bottom: "0",
+                right: "20px",
+              }}
+            />
             <h2 className="has-text-weight-normal">
               Software Developer | Fullstack Developer.
             </h2>
@@ -76,7 +88,7 @@ const Home = () => {
                   style={{ width: "100px", marginBottom: "20px" }}
                 />
                 <h3 className="subtitle is-5">Frontend</h3>
-                <ul>
+                <ul className="color">
                   <li>HTML</li>
                   <li>CSS, Tailwind, Bulma</li>
                   <li>JavaScript</li>
@@ -92,7 +104,7 @@ const Home = () => {
                 />
 
                 <h3 className="subtitle is-5">Backend</h3>
-                <ul>
+                <ul className="color">
                   <li>Node.js</li>
                   <li>Express.js</li>
                   <li>PostgreSQL</li>
@@ -108,7 +120,7 @@ const Home = () => {
                 style={{ width: "100px", marginBottom: "20px" }}
               />
               <h3 className="subtitle is-5">Design Tools</h3>
-              <ul>
+              <ul className="color">
                 <li>Adobe Photoshop</li>
                 <li>Illustator</li>
                 <li>Dreamweaver</li>
@@ -216,7 +228,7 @@ const Home = () => {
               </div>
 
               <div className="image-item">
-                <img src={code} alt="Project 3" />
+                <img src={heart} alt="Project 3" />
                 <p></p>
               </div>
             </div>

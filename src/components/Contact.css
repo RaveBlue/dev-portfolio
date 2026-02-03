@@ -4,3 +4,20 @@
 .resume:hover {
   color: rgb(116, 192, 215);
 }
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+.bottom-cloud {
+  width: 100px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.bottom-cloud-right {
+  width: 100px;
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+}

@@ -32,12 +32,6 @@ body {
   top: 40px;
 }
 
-.bottom-cloud {
-  position: absolute;
-  left: 250px;
-  bottom: 300px;
-}
-
 /*h1 {
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
@@ -110,8 +104,8 @@ body {
 }
 
 .tech-column {
-  background-color: transparent;
-  border: 1px solid #c2e2fc;
+  background-color: #eff8fe;
+  border: 2px solid #c2e2fc;
   padding: 30px;
   margin: 10px;
   border-radius: 8px;
