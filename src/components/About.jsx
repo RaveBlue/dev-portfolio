@@ -4,7 +4,7 @@ import cloud from "./cloud.png";
 import Ravenimg from "./Ravenimg.png";
 import bluecode from "./bluecode.png";
 import programming from "./programming.png";
-//import programmer from "./programmer.png";
+import coding from "./coding.jpg";
 import programmer2 from "./programmer2.png";
 
 const About = () => {
@@ -72,6 +72,13 @@ const About = () => {
         </div>
 
         <img className="raven" src={Ravenimg} alt="person" />
+        <div className="dots-divider">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <img className="additional-image" src={coding} alt="description" />
       </div>
     </div>
   );
