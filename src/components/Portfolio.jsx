@@ -59,6 +59,14 @@ const Portfolio = () => {
                   >
                     <FaExternalLinkAlt size={20} /> Live Demo
                   </a>
+                  <a
+                    href="https://github.com/yourusername/project2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaExternalLinkAlt size={20} />
+                    Project Link
+                  </a>
                 </div>
               </div>
             </div>
@@ -93,6 +101,14 @@ const Portfolio = () => {
                   >
                     <FaExternalLinkAlt size={20} /> Live Demo
                   </a>
+                  <a
+                    href="https://github.com/yourusername/project2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaExternalLinkAlt size={20} />
+                    Project Link
+                  </a>
                 </div>
               </div>
             </div>
@@ -121,6 +137,14 @@ const Portfolio = () => {
                     rel="noopener noreferrer"
                   >
                     <FaExternalLinkAlt size={20} /> Live Demo
+                  </a>
+                  <a
+                    href="https://github.com/yourusername/project2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaExternalLinkAlt size={20} />
+                    Project Link
                   </a>
                 </div>
               </div>

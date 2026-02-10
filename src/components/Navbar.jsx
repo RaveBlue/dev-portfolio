@@ -55,35 +55,6 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-
-      {/*<nav className="navbar">
-      /*<div className="logo">
-        <h2 className="name">Raven Ontiveros</h2>
-      </div>
-      <ul className="navbar-nav">
-        <li className="nav-item">
-          <Link to="/" className="nav-link">
-            Home
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/About" className="nav-link">
-            About
-          </Link>
-        </li>
-
-        <li className="nav-item">
-          <Link to="/Portfolio" className="nav-link">
-            Portfolio
-          </Link>
-        </li>
-
-        <li className="nav-item">
-          <button type="button" className="contact-button">
-            Contact
-          </button>
-        </li>
-  </ul>*/}
     </nav>
   );
 };
