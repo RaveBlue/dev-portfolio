@@ -63,7 +63,7 @@ const Contact = () => {
                 <li>
                   <a
                     className="resume"
-                    href="https://docs.google.com/document/d/1ErfEPhA3GOZN9oltJF4SZqJKsY5jPKuqQ6ooMSOPqgI/edit?usp=drive_link"
+                    href="https://docs.google.com/document/d/1AlS2AQCwG3hTJPgGWGynrFUcuqhzufyrFwNGQyKnyUg/edit?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

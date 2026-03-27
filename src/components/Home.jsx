@@ -13,6 +13,8 @@ import coffeemachine from "./coffeemachine.gif";
 import strawberry from "./strawberry.jpg";
 import bear from "./bear.jpg";
 import heart from "./heart.jpg";
+import webpageimg from "./webpageimg.png";
+import pizzapage from "./pizzapage.png";
 
 const Home = () => {
   return (
@@ -122,7 +124,7 @@ const Home = () => {
               <h3 className="subtitle is-5">Design Tools</h3>
               <ul className="color">
                 <li>Adobe Photoshop</li>
-                <li>Illustator</li>
+                <li>Illustrator</li>
                 <li>Dreamweaver</li>
                 <li>InDesign</li>
                 <li>After Effects</li>
@@ -239,20 +241,36 @@ const Home = () => {
             <h1 className="skills-text has-text-centered">My Projects</h1>
 
             <div className="image-grid">
-              <div className="image-item">
-                <img src={code} alt="Project 1" />
-                <p>Project Title 1</p>
-              </div>
+              <a
+                href="
+                https://icecream-divine-git-main-raveblues-projects.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="image-item"
+              >
+                <img src={webpageimg} alt="Divine Ice Cream Project" />
+                <p>Divine Protein Ice-cream💗</p>
+              </a>
 
-              <div className="image-item">
+              <a
+                href="https://github.com/RaveBlue/strangers_things.git"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="image-item"
+              >
                 <img src={frontend} alt="Project 2" />
-                <p>Project Title 2</p>
-              </div>
+                <p>Strangers Things</p>
+              </a>
 
-              <div className="image-item">
-                <img src={programming} alt="Project 3" />
-                <p>Project Title 3</p>
-              </div>
+              <a
+                href="https://react-pizza21.netlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="image-item"
+              >
+                <img src={pizzapage} alt="React Pizza Project" />
+                <p>React Pizza🍕</p>
+              </a>
             </div>
           </section>
         </div>
@@ -260,4 +278,5 @@ const Home = () => {
     </>
   );
 };
+
 export default Home;
